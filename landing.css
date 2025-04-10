@@ -1,0 +1,126 @@
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fundo claro para o corpo */
+    color: #333; /* Cor do texto */
+}
+
+/* Cabeçalho */
+header {
+    background: #6a1b9a; /* Roxo escuro */
+    color: #fff; /* Texto branco */
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ba68c8; /* Roxo claro ao passar o mouse */
+}
+
+/* Seções */
+section {
+    padding: 80px 20px; /* Espaço maior no topo devido ao cabeçalho fixo */
+    margin: 10px 0;
+}
+
+
+#secao1 {
+    background: #f3e5f5; /* Roxo bem claro para contraste suave */
+    color: #333;
+}
+
+/* Seção 2 */
+#secao2 {
+    background: #e1bee7; /* Roxo médio */
+    color: #333;
+}
+
+/* Seção 3 */
+#secao3 {
+    background: #ce93d8; /* Roxo mais forte */
+    color: #333;
+}
+
+/* Seção 4 */
+#secao4 {
+    background: #ab47bc; /* Roxo escuro */
+    color: #fff; /* Texto claro para contraste */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #6a1b9a; /* Roxo escuro no rodapé */
+    color: white;
+    position: relative;
+}
+
+footer i {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+footer i:hover {
+    color: #ba68c8; /* Efeito de hover nos ícones */
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 60px 20px;
+    }
+
+    footer i {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
