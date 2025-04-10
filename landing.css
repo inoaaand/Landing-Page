@@ -1,127 +1,111 @@
-/* Corpo da página */
+
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Fundo claro para o corpo */
-    color: #333; /* Cor do texto */
-}
-
-/* Cabeçalho */
-header {
-    background: #6a1b9a; /* Roxo escuro */
-    color: #fff; /* Texto branco */
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: #9756be;
+    color: #fff;
     padding: 10px 0;
     position: fixed;
     width: 100%;
-    top: 0;
-    z-index: 1000;
-}
-
-nav ul {
-    list-style: none;
+  }
+    
+  nav ul {
     text-align: center;
     margin: 0;
     padding: 0;
-}
-
-nav ul li {
+  }
+  
+  nav ul li {
     display: inline;
     margin: 0 15px;
-}
-
-nav ul li a {
+  }
+  
+  nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 16px;
     transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-    color: #ba68c8; /* Roxo claro ao passar o mouse */
-}
-
-/* Seções */
-section {
-    padding: 80px 20px; /* Espaço maior no topo devido ao cabeçalho fixo */
-    margin: 10px 0;
-}
-
-
-#secao1 {
-    background: #f3e5f5; /* Roxo bem claro para contraste suave */
-    color: #333;
-}
-
-/* Seção 2 */
-#secao2 {
-    background: #e1bee7; /* Roxo médio */
-    color: #333;
-}
-
-/* Seção 3 */
-#secao3 {
-    background: #ce93d8; /* Roxo mais forte */
-    color: #333;
-}
-
-/* Seção 4 */
-#secao4 {
-    background: #ab47bc; /* Roxo escuro */
-    color: #fff; /* Texto claro para contraste */
-}
-
-/* Rodapé */
-footer {
+  }
+  
+  nav ul li a:hover {
+    color: #ba68c8;
+  }
+  
+  
+  section {
+    padding: 100px 20px 60px 20px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: justify;
+  }
+  
+  
+  #home {
+    background: #f3e5f5;
+  }
+  
+  #impacto-cultural {
+    background: #e1bee7;
+  }
+  
+  #principais-artistas {
+    background: #ce93d8;
+  }
+  
+  #hip-hop-moda {
+    background: #c469d4;
+  }
+  
+  
+  img {
+    max-width: 25%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+  }
+  
+  footer {
     text-align: center;
-    padding: 10px 0;
-    background: #6a1b9a; /* Roxo escuro no rodapé */
+    padding: 20px 0;
+    background: #9756be;
     color: white;
     position: relative;
-}
+  }
 
-footer i {
-    font-size: 24px;
-    margin: 0 10px;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
+  section h1, section h2, section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: monospace;
+  }
+  
+  .artistas {
+    max-width: 900%;
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .artistas figure {
+    text-align: center;
+    width: 110%; 
+  }
 
-footer i:hover {
-    color: #ba68c8; /* Efeito de hover nos ícones */
-}
+   
+  figcaption {
+    margin-top: 8px;
+    font-family: monospace;
+    color: #000000;
+    font-weight: 20;
+  }
 
-footer p {
-    font-size: 14px;
-    margin-top: 10px;
-}
-
-
-
-/* Responsividade */
-@media (max-width: 768px) {
-    nav ul {
-        display: flex;
-        flex-direction: column;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    section {
-        padding: 60px 20px;
-    }
-
-    footer i {
-        font-size: 20px;
-    }
-
-    footer p {
-        font-size: 12px;
-    }
-}
-
+  
+  
